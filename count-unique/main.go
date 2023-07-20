@@ -1,3 +1,5 @@
+// From Matt Holiday - Go Class: 05
+
 package main
 
 import (
@@ -6,8 +8,6 @@ import (
 	"fmt"
 	"sort"
 )
-
-// From Matt Holiday - Go Class: 05 
 
 // cat test.txt | go run .
 func main() {
