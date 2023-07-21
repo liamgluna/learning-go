@@ -4,4 +4,5 @@ use (
 	./basic-io
 	./count-unique
 	./using-modules
+	./word-count
 )
