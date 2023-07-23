@@ -4,6 +4,7 @@ use (
 	./basic-io
 	./count-unique
 	./go-interfaces
+	./playground
 	./using-modules
 	./word-count
 )
