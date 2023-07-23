@@ -25,15 +25,23 @@ func (c circle) area() float64 {
 }
 
 func measure(g geometry) {
-	c, ok := g.(circle)
-	if ok {
-		fmt.Println(c.area())
-		return
-	}
+	// c, ok := g.(circle)
+	// if ok {
+	// 	fmt.Println(c.area())
+	// 	return
+	// }
 
-	r, ok := g.(rect)
-	if ok {
-		fmt.Println(r.area())
+	// r, ok := g.(rect)
+	// if ok {
+	// 	fmt.Println(r.area())
+	// }
+	
+	// Using type switch
+	switch shape := g.(type) {
+	case rect:
+		fmt.Println(shape.area())
+	case circle:
+		fmt.Println(shape.area())
 	}
 }
 
