@@ -1,5 +1,7 @@
 package main
 
+// Random comment to test Git in WSL
+
 import (
 	"fmt"
 
