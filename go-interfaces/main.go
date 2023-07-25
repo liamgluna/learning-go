@@ -36,7 +36,7 @@ func measure(g geometry) {
 	// 	fmt.Println(r.area())
 	// }
 	
-	// Using type switch
+	// Using type switch (cleaner)
 	switch shape := g.(type) {
 	case rect:
 		fmt.Println(shape.area())
