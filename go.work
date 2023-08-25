@@ -2,7 +2,9 @@ go 1.20
 
 use (
 	./basic-io
+	./basic-server
 	./count-unique
+	./go-chi-sample
 	./go-interfaces
 	./playground
 	./using-modules
